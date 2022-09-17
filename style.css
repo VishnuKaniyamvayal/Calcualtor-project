@@ -1,0 +1,53 @@
+body
+{
+    margin: 0;
+    padding: 0%;
+    background-image: radial-gradient(#2e2e2e,#3f3f40);
+}
+
+.calculator
+{
+    width: 500px;
+    height: 500px;
+    background-color: #5260ff;
+    margin-left: 25%;
+
+}
+
+.calculator_screen
+{
+    background-color:black;
+    width: 100%;
+    height:20%;
+}
+#Screen
+{
+    width: 80%;
+    height: 50%;
+    margin-top: 30px;
+    margin-left: 40px;
+    pointer-events: none;
+
+}
+button
+{
+    height:125px ;
+    width:125px;
+    color: black;
+    background-color: aliceblue;
+    border-color: #fff;
+    font-size: large;
+    transition: all 0.5s ease ;
+    
+}
+#cbutton
+{
+    height: 53px;
+    width:40px;
+
+}
+button:hover
+{
+    background-color:#f7f7f7 ;
+}
+

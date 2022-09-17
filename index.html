@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="calculator">
+            <div class="calculator_screen" >
+                <input type="" id="Screen" >
+                <button onclick="clrscreen()" id="cbutton">c</button>
+            </div>
+            <div class="table_div">
+                <table class="keys">
+                    <tbody>
+                        <td>
+                            <tr><button onclick="add_screen(7)">7</button></tr>
+                            <tr><button onclick="add_screen(8)">8</button></tr>
+                            <tr><button onclick="add_screen(9)">9</button></tr>
+                            <tr><button onclick="add_screen('+')">+</button></tr>
+                        </td>
+                        <br>
+                        <td>
+                            <tr><button onclick="add_screen(4)">4</button></tr>
+                            <tr><button onclick="add_screen(5)">5</button></tr>
+                            <tr><button onclick="add_screen(6)">6</button></tr>
+                            <tr><button onclick="add_screen('-')">-</button></tr>
+                        </td>
+                        <br>
+                        <td>
+                            <tr><button onclick="add_screen(3)">3</button></tr>
+                            <tr><button onclick="add_screen(2)">2</button></tr>
+                            <tr><button onclick="add_screen(1)">1</button></tr>
+                            <tr><button onclick="add_screen('/')">/</button></tr>
+                        </td>
+                        <br>
+                        <td>
+                            <tr><button onclick="add_screen('.')">.</button></tr>
+                            <tr><button onclick="add_screen(0)">0</button></tr>
+                            <tr><button onclick="eq_button()">=</button></tr>
+                            <tr><button onclick="add_screen('*')">*</button></tr>
+                        </td>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
